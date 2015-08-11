@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001094E1B65C8E800ED8CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A001094D1B65C8E800ED8CB5 /* main.m */; };
+		A00109561B65C8FD00ED8CB5 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109551B65C8FD00ED8CB5 /* Student.m */; };
+		A00109591B65C90E00ED8CB5 /* StudentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109581B65C90E00ED8CB5 /* StudentManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A00109481B65C8E800ED8CB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A001094A1B65C8E800ED8CB5 /* (简易)学生管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "(简易)学生管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001094D1B65C8E800ED8CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00109541B65C8FD00ED8CB5 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A00109551B65C8FD00ED8CB5 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A00109571B65C90E00ED8CB5 /* StudentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentManager.h; sourceTree = "<group>"; };
+		A00109581B65C90E00ED8CB5 /* StudentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00109471B65C8E800ED8CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00109411B65C8E800ED8CB5 = {
+			isa = PBXGroup;
+			children = (
+				A001094C1B65C8E800ED8CB5 /* (简易)学生管理系统 */,
+				A001094B1B65C8E800ED8CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A001094B1B65C8E800ED8CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A001094A1B65C8E800ED8CB5 /* (简易)学生管理系统 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A001094C1B65C8E800ED8CB5 /* (简易)学生管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				A001094D1B65C8E800ED8CB5 /* main.m */,
+				A00109541B65C8FD00ED8CB5 /* Student.h */,
+				A00109551B65C8FD00ED8CB5 /* Student.m */,
+				A00109571B65C90E00ED8CB5 /* StudentManager.h */,
+				A00109581B65C90E00ED8CB5 /* StudentManager.m */,
+			);
+			path = "(简易)学生管理系统";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00109491B65C8E800ED8CB5 /* (简易)学生管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00109511B65C8E800ED8CB5 /* Build configuration list for PBXNativeTarget "(简易)学生管理系统" */;
+			buildPhases = (
+				A00109461B65C8E800ED8CB5 /* Sources */,
+				A00109471B65C8E800ED8CB5 /* Frameworks */,
+				A00109481B65C8E800ED8CB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "(简易)学生管理系统";
+			productName = "(简易)学生管理系统";
+			productReference = A001094A1B65C8E800ED8CB5 /* (简易)学生管理系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00109421B65C8E800ED8CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "tens十安科技";
+				TargetAttributes = {
+					A00109491B65C8E800ED8CB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A00109451B65C8E800ED8CB5 /* Build configuration list for PBXProject "(简易)学生管理系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00109411B65C8E800ED8CB5;
+			productRefGroup = A001094B1B65C8E800ED8CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00109491B65C8E800ED8CB5 /* (简易)学生管理系统 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00109461B65C8E800ED8CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001094E1B65C8E800ED8CB5 /* main.m in Sources */,
+				A00109591B65C90E00ED8CB5 /* StudentManager.m in Sources */,
+				A00109561B65C8FD00ED8CB5 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A001094F1B65C8E800ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A00109501B65C8E800ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A00109521B65C8E800ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00109531B65C8E800ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00109451B65C8E800ED8CB5 /* Build configuration list for PBXProject "(简易)学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001094F1B65C8E800ED8CB5 /* Debug */,
+				A00109501B65C8E800ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00109511B65C8E800ED8CB5 /* Build configuration list for PBXNativeTarget "(简易)学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00109521B65C8E800ED8CB5 /* Debug */,
+				A00109531B65C8E800ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00109421B65C8E800ED8CB5 /* Project object */;
+}

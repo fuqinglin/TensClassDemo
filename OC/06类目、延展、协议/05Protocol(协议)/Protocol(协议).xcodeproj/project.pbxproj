@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00109C51B67571300ED8CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109C41B67571300ED8CB5 /* main.m */; };
+		A00109CE1B6757EA00ED8CB5 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109CD1B6757EA00ED8CB5 /* Student.m */; };
+		A00109D11B675A5400ED8CB5 /* TensSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109D01B675A5400ED8CB5 /* TensSchool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A00109BF1B67571300ED8CB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00109C11B67571300ED8CB5 /* Protocol(协议) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Protocol(协议)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00109C41B67571300ED8CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00109CB1B67574500ED8CB5 /* TensProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TensProtocol.h; sourceTree = "<group>"; };
+		A00109CC1B6757EA00ED8CB5 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A00109CD1B6757EA00ED8CB5 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A00109CF1B675A5400ED8CB5 /* TensSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TensSchool.h; sourceTree = "<group>"; };
+		A00109D01B675A5400ED8CB5 /* TensSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TensSchool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00109BE1B67571300ED8CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00109B81B67571300ED8CB5 = {
+			isa = PBXGroup;
+			children = (
+				A00109C31B67571300ED8CB5 /* Protocol(协议) */,
+				A00109C21B67571300ED8CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00109C21B67571300ED8CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00109C11B67571300ED8CB5 /* Protocol(协议) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00109C31B67571300ED8CB5 /* Protocol(协议) */ = {
+			isa = PBXGroup;
+			children = (
+				A00109C41B67571300ED8CB5 /* main.m */,
+				A00109CB1B67574500ED8CB5 /* TensProtocol.h */,
+				A00109CC1B6757EA00ED8CB5 /* Student.h */,
+				A00109CD1B6757EA00ED8CB5 /* Student.m */,
+				A00109CF1B675A5400ED8CB5 /* TensSchool.h */,
+				A00109D01B675A5400ED8CB5 /* TensSchool.m */,
+			);
+			path = "Protocol(协议)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00109C01B67571300ED8CB5 /* Protocol(协议) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00109C81B67571300ED8CB5 /* Build configuration list for PBXNativeTarget "Protocol(协议)" */;
+			buildPhases = (
+				A00109BD1B67571300ED8CB5 /* Sources */,
+				A00109BE1B67571300ED8CB5 /* Frameworks */,
+				A00109BF1B67571300ED8CB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protocol(协议)";
+			productName = "Protocol(协议)";
+			productReference = A00109C11B67571300ED8CB5 /* Protocol(协议) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00109B91B67571300ED8CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "tens十安科技";
+				TargetAttributes = {
+					A00109C01B67571300ED8CB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A00109BC1B67571300ED8CB5 /* Build configuration list for PBXProject "Protocol(协议)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00109B81B67571300ED8CB5;
+			productRefGroup = A00109C21B67571300ED8CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00109C01B67571300ED8CB5 /* Protocol(协议) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00109BD1B67571300ED8CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00109C51B67571300ED8CB5 /* main.m in Sources */,
+				A00109D11B675A5400ED8CB5 /* TensSchool.m in Sources */,
+				A00109CE1B6757EA00ED8CB5 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00109C61B67571300ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A00109C71B67571300ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A00109C91B67571300ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00109CA1B67571300ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00109BC1B67571300ED8CB5 /* Build configuration list for PBXProject "Protocol(协议)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00109C61B67571300ED8CB5 /* Debug */,
+				A00109C71B67571300ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00109C81B67571300ED8CB5 /* Build configuration list for PBXNativeTarget "Protocol(协议)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00109C91B67571300ED8CB5 /* Debug */,
+				A00109CA1B67571300ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00109B91B67571300ED8CB5 /* Project object */;
+}

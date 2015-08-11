@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Mp3Play
+//
+//  Created by Chen on 15/7/29.
+//  Copyright (c) 2015年 Chen. All rights reserved.
+//
+
+#ifndef Mp3Play_PrefixHeader_pch
+#define Mp3Play_PrefixHeader_pch
+
+#import "AppMacro.h"
+#import "UIView+TNSFrame.h"
+
+#endif

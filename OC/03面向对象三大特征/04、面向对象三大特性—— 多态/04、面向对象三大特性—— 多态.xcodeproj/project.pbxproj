@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0FC3EFC1B5F8AED00250A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3EFB1B5F8AED00250A60 /* main.m */; };
+		A0FC3F041B5F8B0500250A60 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F031B5F8B0500250A60 /* Printer.m */; };
+		A0FC3F071B5F8B4E00250A60 /* BWPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F061B5F8B4E00250A60 /* BWPrinter.m */; };
+		A0FC3F0A1B5F8B7000250A60 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F091B5F8B7000250A60 /* ColorPrinter.m */; };
+		A0FC3F0D1B5F8B9900250A60 /* My3DPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F0C1B5F8B9900250A60 /* My3DPrinter.m */; };
+		A0FC3F161B5F8F7E00250A60 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F151B5F8F7E00250A60 /* Person.m */; };
+		A0FC3F191B5F92D600250A60 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3F181B5F92D600250A60 /* Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0FC3EF61B5F8AED00250A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0FC3EF81B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04、面向对象三大特性—— 多态"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FC3EFB1B5F8AED00250A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0FC3F021B5F8B0500250A60 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		A0FC3F031B5F8B0500250A60 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		A0FC3F051B5F8B4E00250A60 /* BWPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPrinter.h; sourceTree = "<group>"; };
+		A0FC3F061B5F8B4E00250A60 /* BWPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPrinter.m; sourceTree = "<group>"; };
+		A0FC3F081B5F8B7000250A60 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		A0FC3F091B5F8B7000250A60 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		A0FC3F0B1B5F8B9900250A60 /* My3DPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My3DPrinter.h; sourceTree = "<group>"; };
+		A0FC3F0C1B5F8B9900250A60 /* My3DPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My3DPrinter.m; sourceTree = "<group>"; };
+		A0FC3F141B5F8F7E00250A60 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A0FC3F151B5F8F7E00250A60 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A0FC3F171B5F92D600250A60 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A0FC3F181B5F92D600250A60 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0FC3EF51B5F8AED00250A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0FC3EEF1B5F8AED00250A60 = {
+			isa = PBXGroup;
+			children = (
+				A0FC3EFA1B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */,
+				A0FC3EF91B5F8AED00250A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FC3EF91B5F8AED00250A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FC3EF81B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0FC3EFA1B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */ = {
+			isa = PBXGroup;
+			children = (
+				A0FC3EFB1B5F8AED00250A60 /* main.m */,
+				A0FC3F021B5F8B0500250A60 /* Printer.h */,
+				A0FC3F031B5F8B0500250A60 /* Printer.m */,
+				A0FC3F051B5F8B4E00250A60 /* BWPrinter.h */,
+				A0FC3F061B5F8B4E00250A60 /* BWPrinter.m */,
+				A0FC3F081B5F8B7000250A60 /* ColorPrinter.h */,
+				A0FC3F091B5F8B7000250A60 /* ColorPrinter.m */,
+				A0FC3F0B1B5F8B9900250A60 /* My3DPrinter.h */,
+				A0FC3F0C1B5F8B9900250A60 /* My3DPrinter.m */,
+				A0FC3F141B5F8F7E00250A60 /* Person.h */,
+				A0FC3F151B5F8F7E00250A60 /* Person.m */,
+				A0FC3F171B5F92D600250A60 /* Test.h */,
+				A0FC3F181B5F92D600250A60 /* Test.m */,
+			);
+			path = "04、面向对象三大特性—— 多态";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0FC3EF71B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FC3EFF1B5F8AED00250A60 /* Build configuration list for PBXNativeTarget "04、面向对象三大特性—— 多态" */;
+			buildPhases = (
+				A0FC3EF41B5F8AED00250A60 /* Sources */,
+				A0FC3EF51B5F8AED00250A60 /* Frameworks */,
+				A0FC3EF61B5F8AED00250A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04、面向对象三大特性—— 多态";
+			productName = "04、面向对象三大特性—— 多态";
+			productReference = A0FC3EF81B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0FC3EF01B5F8AED00250A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "tens十安科技";
+				TargetAttributes = {
+					A0FC3EF71B5F8AED00250A60 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A0FC3EF31B5F8AED00250A60 /* Build configuration list for PBXProject "04、面向对象三大特性—— 多态" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0FC3EEF1B5F8AED00250A60;
+			productRefGroup = A0FC3EF91B5F8AED00250A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FC3EF71B5F8AED00250A60 /* 04、面向对象三大特性—— 多态 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0FC3EF41B5F8AED00250A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FC3F0A1B5F8B7000250A60 /* ColorPrinter.m in Sources */,
+				A0FC3F041B5F8B0500250A60 /* Printer.m in Sources */,
+				A0FC3F161B5F8F7E00250A60 /* Person.m in Sources */,
+				A0FC3F0D1B5F8B9900250A60 /* My3DPrinter.m in Sources */,
+				A0FC3F191B5F92D600250A60 /* Test.m in Sources */,
+				A0FC3F071B5F8B4E00250A60 /* BWPrinter.m in Sources */,
+				A0FC3EFC1B5F8AED00250A60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0FC3EFD1B5F8AED00250A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0FC3EFE1B5F8AED00250A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0FC3F001B5F8AED00250A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0FC3F011B5F8AED00250A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0FC3EF31B5F8AED00250A60 /* Build configuration list for PBXProject "04、面向对象三大特性—— 多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FC3EFD1B5F8AED00250A60 /* Debug */,
+				A0FC3EFE1B5F8AED00250A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FC3EFF1B5F8AED00250A60 /* Build configuration list for PBXNativeTarget "04、面向对象三大特性—— 多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FC3F001B5F8AED00250A60 /* Debug */,
+				A0FC3F011B5F8AED00250A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0FC3EF01B5F8AED00250A60 /* Project object */;
+}

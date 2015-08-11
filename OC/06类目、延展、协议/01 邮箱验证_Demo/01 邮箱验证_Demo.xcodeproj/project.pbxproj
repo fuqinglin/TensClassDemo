@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00109671B6714DC00ED8CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00109661B6714DC00ED8CB5 /* main.m */; };
+		A001096F1B67150900ED8CB5 /* ValidateEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = A001096E1B67150900ED8CB5 /* ValidateEmail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A00109611B6714DC00ED8CB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00109631B6714DC00ED8CB5 /* 01 邮箱验证_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01 邮箱验证_Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00109661B6714DC00ED8CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A001096D1B67150900ED8CB5 /* ValidateEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateEmail.h; sourceTree = "<group>"; };
+		A001096E1B67150900ED8CB5 /* ValidateEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateEmail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00109601B6714DC00ED8CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A001095A1B6714DC00ED8CB5 = {
+			isa = PBXGroup;
+			children = (
+				A00109651B6714DC00ED8CB5 /* 01 邮箱验证_Demo */,
+				A00109641B6714DC00ED8CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00109641B6714DC00ED8CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00109631B6714DC00ED8CB5 /* 01 邮箱验证_Demo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00109651B6714DC00ED8CB5 /* 01 邮箱验证_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A00109661B6714DC00ED8CB5 /* main.m */,
+				A001096D1B67150900ED8CB5 /* ValidateEmail.h */,
+				A001096E1B67150900ED8CB5 /* ValidateEmail.m */,
+			);
+			path = "01 邮箱验证_Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00109621B6714DC00ED8CB5 /* 01 邮箱验证_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001096A1B6714DC00ED8CB5 /* Build configuration list for PBXNativeTarget "01 邮箱验证_Demo" */;
+			buildPhases = (
+				A001095F1B6714DC00ED8CB5 /* Sources */,
+				A00109601B6714DC00ED8CB5 /* Frameworks */,
+				A00109611B6714DC00ED8CB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01 邮箱验证_Demo";
+			productName = "01 邮箱验证_Demo";
+			productReference = A00109631B6714DC00ED8CB5 /* 01 邮箱验证_Demo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001095B1B6714DC00ED8CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "tens十安科技";
+				TargetAttributes = {
+					A00109621B6714DC00ED8CB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A001095E1B6714DC00ED8CB5 /* Build configuration list for PBXProject "01 邮箱验证_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A001095A1B6714DC00ED8CB5;
+			productRefGroup = A00109641B6714DC00ED8CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00109621B6714DC00ED8CB5 /* 01 邮箱验证_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A001095F1B6714DC00ED8CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001096F1B67150900ED8CB5 /* ValidateEmail.m in Sources */,
+				A00109671B6714DC00ED8CB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00109681B6714DC00ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A00109691B6714DC00ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A001096B1B6714DC00ED8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A001096C1B6714DC00ED8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A001095E1B6714DC00ED8CB5 /* Build configuration list for PBXProject "01 邮箱验证_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00109681B6714DC00ED8CB5 /* Debug */,
+				A00109691B6714DC00ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001096A1B6714DC00ED8CB5 /* Build configuration list for PBXNativeTarget "01 邮箱验证_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001096B1B6714DC00ED8CB5 /* Debug */,
+				A001096C1B6714DC00ED8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A001095B1B6714DC00ED8CB5 /* Project object */;
+}

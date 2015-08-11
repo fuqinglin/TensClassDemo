@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C0EEE6D-ED86-481A-AF6A-0F406C234D3F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>01UILabel_Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4d322584-7870-b84f-8024-091529829fdf++1066</key>
+		<string>svn://192.168.0.10/tens01/TensClass</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UI/03常用基础控件/01UILabel_Demo/01UILabel_Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4d322584-7870-b84f-8024-091529829fdf++1066</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>4d322584-7870-b84f-8024-091529829fdf++1066</key>
+		<string>svn://192.168.0.10</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.0.10/tens01/TensClass/UI/03%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80%E6%8E%A7%E4%BB%B6/01UILabel_Demo/01UILabel_Demo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4d322584-7870-b84f-8024-091529829fdf++1066</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4d322584-7870-b84f-8024-091529829fdf++1066</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TensClass</string>
+		</dict>
+	</array>
+</dict>
+</plist>
